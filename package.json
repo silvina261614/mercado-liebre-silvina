@@ -1,18 +1,16 @@
 {
-  "dependencies": {
-    "express": "^4.18.2",
-    "nodemon": "^3.0.1"
-  },
-  "name": "mercado-liebre-mio",
+  "name": "html_css",
   "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "test": "nodemon app.js",
+    "start": "node app.js"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^3.0.1"
+  }
 }
