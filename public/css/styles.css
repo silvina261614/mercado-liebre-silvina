@@ -1,0 +1,425 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 12px;
+}
+
+div.top-header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+header div.top-header p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+header{
+    background-color: #EAC926;
+}
+
+header div.logo,
+header .form{
+    width: 50%;
+}
+
+header div.logo{
+    padding: 10px;
+}
+header .form{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    font-size: 11px;
+}
+header nav{
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+}
+
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+div.ultima-visita,
+div.ofertas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.precio{
+    font-size: 18px;
+    width: 30%;
+}
+
+.descuento{
+    width: 70%;
+}
+
+.descuento,
+.descripcion{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h3,
+.descripcion{
+    color: #666;
+}
+
+.descripcion{
+    display: none;
+    margin-top: 20px;
+}
+
+section.banner img{
+    width: 100%;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+/* MODIFIQUE A ULTIMA HORA*/
+main section article{
+    margin: auto;
+    width: 50%;
+    background-color: #fff;    
+    margin-bottom: 10px;
+    transition: all 1s;
+    transition: all transform 1s;
+    
+   
+}
+
+main section article img{
+    width: 100%;
+}
+
+main section article i,
+.descuento{
+    color: #39b54a;
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+main section article .descripcion{
+    opacity: 0.0;
+}
+
+main section h3{
+    margin: 20px 0px;
+}
+main section div.productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.precio,
+.descuento{
+    width:50%
+}
+
+main section div.productos article{
+    width: 45%;
+}
+article div.main-articulo{
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    position: relative;
+}
+
+div.pie{
+    text-align: center;
+}
+footer section aviso{
+    text-align: center;
+}
+section.aviso{
+    margin-bottom: 10px;
+    text-align: center;
+}
+section.aviso i{
+    color:#1259c3;
+    font-size: 2em;
+    text-align: center;
+}
+
+/* AQUI EMPIEZA REGISTER */
+
+input[type=text], input[type=email], input[type=date], input[type=file], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+.profile{
+    display: flex;
+    margin: 10px 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: stretch;
+}
+
+input[type=radio], label[type=radio]{
+    width: 25%;
+    align-items: stretch;
+}
+
+div.interests{
+    display: flex;
+    margin: 10px 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: normal;
+    align-items: baseline;
+}
+
+  input[type=submit], input[type=reset] {
+    width: 100%;
+    background-color: #666;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+/* ANIMACIONES */
+/*color a los iconos*/
+section.aviso i:hover{
+    color:#39b54a;
+    font-size: 2em;
+    text-align: center;
+}
+/* color al boton enviar*/
+  input[type=submit]:hover {
+    width: 100%;
+    background-color: #0022AA;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+main section article:hover{
+/*    margin: auto;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 10px;*/
+    box-shadow: 5px 5px 5px 5px rgb(56, 56, 56);
+}
+
+section article:hover .descripcion{
+  opacity: 1;
+}
+main section article i{
+    transition: transform 1s;    
+}
+main section article:hover i{
+    transform: rotate(-90deg);
+}  
+ 
+/*CELULARES*/
+@media (max-width: 361px){
+    main section article .descripcion{
+        display: none;
+    }
+    header nav ul{
+        display: none; 
+    }
+    main section div.productos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .precio,
+    .descuento{
+        width: 100%;
+    }
+    main section div.productos article{
+        width: 90%;
+    }
+}
+
+/*version mobile: max-width: 768px */
+/*TABLETS*/
+@media (min-width: 361px){
+    main section article .descripcion{
+        display: block;
+    }
+    /*main section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }*/
+    main section div.productos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+        main section div.productos article{
+        width: 45%;
+    }
+    .precio,
+    .descuento{
+        width: 50%;
+    }
+    div.burger-menu i{
+        display:none;
+    }
+    div.top-header{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header div.top-header p{
+        width: 30%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    header div.logo,
+    header .form{
+        width: 30%;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+    }
+    li {
+        display: inline;
+        flex-wrap: wrap;
+    }
+}
+/* version tableT y desktop         max-width: 1024px*/
+/*DESKTOP */
+@media (min-width: 769px){
+    main section div.productos article{
+        width: 22%;
+    }
+    div.burger-menu i{
+        display:none;
+    }
+    main section div.productos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+        main section div.productos article{
+        width: 22%;
+    }
+    .precio,
+    .descuento{
+        display: flex;
+        width: 50%;
+    }
+    div.pie{
+        display: flex;
+        margin: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    footer section aviso{
+        text-align: center;
+    }
+}
+/* MENSAJE DE ERROR EN LOS CAMPOS DEL FORMULARIO*/
+input:invalid{
+    border-color: red;
+    
+}
+span.mensaje-error{
+    display: none;
+    color: red;
+}
+input:invalid + span.mensaje-error{
+    display: block;
+}
